@@ -5,15 +5,14 @@ public:
         int m= matrix.size();
         int n= matrix[0].size();
         
-        int low=0, up= m*n-1;
+        int low=0, up= m*n-1, x,y,mid;
         
         while(low<=up)
         {
-            int mid= low+ (up-low)/2;
+            mid= low+ (up-low)/2;
             
-            int x= mid/n;
-            
-            int y= mid%n;
+            x= mid/n;
+            y= mid%n;
             
             if(matrix[x][y]==target)
                 return true;
