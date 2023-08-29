@@ -17,7 +17,7 @@ public:
         int maxm= 0, ind=0;
         for(int i=0;i<n+1;i++)
         {
-            cout<<v[i]<<" ";
+            // cout<<v[i]<<" ";
 
             if(v[i]>maxm)
             {
