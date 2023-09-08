@@ -15,7 +15,7 @@ public:
  ListNode* listEl(int k)
  {
     //  ListNode* newList= new ListNode();
-    if(!temp)
+    if(!temp || !k)
         return NULL;
      ListNode* newList= new ListNode(temp->val);
      
